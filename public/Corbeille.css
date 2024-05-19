@@ -1,0 +1,32 @@
+.corbeille {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    text-align: center;
+}
+
+.liste-courriers {
+    list-style-type: none;
+    padding: 0;
+}
+
+.liste-courriers li {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.liste-courriers li:last-child {
+    border-bottom: none;
+}
+
+.liste-courriers li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Hauteur de la page */
+}
+
+
+header {
+    background-color: #438576;
+    color: #fff;
+    text-align: center;
+    padding: 0rem 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+nav {
+    background-color: #e6e9edfd;
+    padding-top: 10rem;
+    width: 60%;
+    box-shadow: 0 0 5px rgba(219, 42, 42, 0.1);
+    
+}
+
+ul.vertical-buttons {
+    list-style: none;
+    padding-top: 0;
+    
+    margin: 0;
+}
+
+ul.vertical-buttons li {
+    margin-bottom: 1rem;
+    width: 30%;
+    text-align: left;
+}
+
+ul.vertical-buttons li a {
+    text-decoration: none;
+    color: #260554;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.0em;
+    
+    transition: background-color 0.3s ease;
+}
+
+ul.vertical-buttons li a:hover {
+    background-color: #c4c765;
+}
+
+main {
+    padding: 0rem;
+    min-height: calc(100vh - 230px); /* Hauteur minimale de la section principale, ajustez-la selon vos besoins */
+}
+
+footer {
+    background-color: #438576;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
